@@ -1,20 +1,15 @@
 {
   "media": {
     "root": "src/assets",
-    "public": "src"
+    "public": "public"
   },
   "content": {
     "root": "src/content/posts"
   },
   "code": {
-    "root": "src"
+    "root": "src/layouts"
   },
-  "themeConfig": [
-    "src/content/config.ts",
-    "astro.config.mjs",
-    "public/browserconfig.xml",
-    ".sitepins/config.json"
-  ],
+  "themeConfig": [],
   "arrangement": [],
-  "showCommitModal": true
+  "showCommitModal": false
 }
